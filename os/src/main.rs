@@ -3,11 +3,13 @@
 
 mod lang_items;
 use core::arch::global_asm;
+mod console;
+mod batch;
+mod sync;
 
 global_asm!(include_str!("entry.asm"));
+global_asm!(include_str!("link_app.S"));
 
-#[macro_use]
-mod console;
 
 mod sbi;
 #[no_mangle]

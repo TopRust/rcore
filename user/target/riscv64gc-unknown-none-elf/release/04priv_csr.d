@@ -1,0 +1,1 @@
+/home/ziran/桌面/rcore/user/target/riscv64gc-unknown-none-elf/release/04priv_csr: /home/ziran/桌面/rcore/user/src/bin/04priv_csr.rs /home/ziran/桌面/rcore/user/src/console.rs /home/ziran/桌面/rcore/user/src/lang_items.rs /home/ziran/桌面/rcore/user/src/lib.rs /home/ziran/桌面/rcore/user/src/syscall.rs
